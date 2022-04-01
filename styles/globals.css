@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 @layer components {
   .container {
@@ -12,7 +13,7 @@
   }
 
   .button {
-    @apply rounded-[45px] text-sm lg:text-base py-3 px-5 2md:py-[15px] 2md:px-[30px] font-medium leading-tight cursor-pointer ease-in duration-300 focus:outline-0;
+    @apply rounded-[45px] text-sm lg:text-base py-3 px-5 2md:px-[30px] font-medium leading-tight cursor-pointer ease-in duration-300 focus:outline-0;
   }
 
   .button-primary {
@@ -20,7 +21,7 @@
   }
 
   .button-secondary {
-    @apply button  border-2  border-solid border-primary text-primary py-[10px] px-4 2md:py-[15px] 2md:px-[30px] hover:text-white-ff hover:bg-primary;
+    @apply button  border-2  border-solid border-primary text-primary py-[10px] px-4 2md:px-[30px] hover:text-white-ff hover:bg-primary;
   }
 
   .button-text {

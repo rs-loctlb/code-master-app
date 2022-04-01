@@ -34,6 +34,9 @@ module.exports = {
       '3xl': '1366px',
       '4xl': '1620px',
     },
+    fontFamily: {
+      logo: 'Dancing Script, cursive',
+    },
   },
   plugins: [],
 };
