@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="text-main font-normal py-5 w-full shadow-md" id="header">
       <div className="container flex items-center justify-between">
-        <Logo />
+        <Logo logoSize={52} />
         <nav className="mx-auto hidden lg:flex">
           {data.map(({ path, label }) => (
             <Link href="/" key={label}>
@@ -19,7 +19,7 @@ const Header = () => {
             </Link>
           ))}
         </nav>
-        <Link href="/">
+        <Link href="/login">
           <a className="button-secondary font-medium shrink-0 mr-[15px] sm:mr-5 lg:mr-0 ml-auto xl:ml-0">
             Login Now
           </a>

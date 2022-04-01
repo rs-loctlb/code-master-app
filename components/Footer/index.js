@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="border-t-[1px] border-solid border-border flex pt-[50px] md:pt-[80px] pb-10 md:pb-[100px] text-center flex-col">
-          <Logo className="justify-center" />
+          <Logo className="justify-center" logoSize={52} />
           <div className="mt-[15px] md:mt-5 mb-[10px]">
             <nav className="flex items-center justify-center flex-wrap">
               {data.map(({ path, label }) => (
